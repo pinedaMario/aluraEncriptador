@@ -1,0 +1,63 @@
+body{
+  margin: 3%;
+  background: #F3F5FC;
+}
+
+main{
+  display: flex;
+}
+
+.inputPanel{
+  width:70%;
+  /* height: calc(80% - 50px); */
+}
+
+.outputPanel{
+  width:30%;
+  /* height: calc(80% - 50px); */
+  border: 2px;
+  /* border-style: solid; */
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.inputBox{
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 120px;
+  box-sizing: border-box;
+  width: calc(100% - 130px);
+  height: 70vh;
+  background: none;
+  color: #0A3871;
+  font-size: large;
+  font-weight: bold;
+}
+
+.buttonArea{
+  margin-left: 120px;
+}
+
+.buttonArea p{
+  color: #495057;
+}
+
+.encriptar{
+  margin: 2%;
+  width: 46%;
+  height: 40px;
+  border-radius: 15px;
+  background: #0A3871;
+  color: #FFFFFF;
+  font-size: medium;
+}
+
+.desencriptar{
+  margin: 2%;
+  width: 46%;
+  height: 40px;
+  border-radius: 15px;
+  background: #D8DFE8;
+  color: #0A3871;
+  font-size: medium;
+}
