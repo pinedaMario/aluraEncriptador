@@ -1,41 +1,42 @@
 body{
   margin: 3%;
   background: #F3F5FC;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 main{
   display: flex;
 }
 
-.inputPanel{
-  width:70%;
-  /* height: calc(80% - 50px); */
+h2{
+  font-size: 2em;
 }
 
-.outputPanel{
-  width:30%;
-  /* height: calc(80% - 50px); */
-  border: 2px;
-  /* border-style: solid; */
-  border-radius: 20px;
-  background: #FFFFFF;
+.inputPanel{
+  width:70%;
+  margin-left: 2%;
+  margin-top: 5%;
+  height: calc(73% - 50px);
 }
 
 .inputBox{
   border: 0px;
+  outline: none;
+  padding: 3%;
   border-radius: 10px;
-  margin-left: 120px;
+  /* margin-left: 120px; */
   box-sizing: border-box;
-  width: calc(100% - 130px);
-  height: 70vh;
+  width: 98%;
+  height: calc(76vh - 100px);
   background: none;
   color: #0A3871;
   font-size: large;
   font-weight: bold;
+  text-justify: distribute;
 }
 
-.buttonArea{
-  margin-left: 120px;
+.inputBox::placeholder{
+  color: #0A3871;
 }
 
 .buttonArea p{
@@ -60,4 +61,60 @@ main{
   background: #D8DFE8;
   color: #0A3871;
   font-size: medium;
+}
+
+.outputPanel{
+  display: table;
+  position: inherit;
+  top: 0;
+  left: 0;
+  height: calc(100vh - 175px);
+  width: 30%;
+  padding: 1%;
+  border: 2px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.emptyImage{
+  width: 90%;
+}
+
+.emptyOutput{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  /* margin: auto; */
+  max-height: 100%;
+  max-width: 50%;
+}
+
+.filledOutput{
+  display: none;
+  position: relative;
+  vertical-align: text-top;
+  text-align: justify;
+  margin: auto;
+  width: 100%;
+  padding: 5%;
+}
+
+.resultText{
+  height: calc(74vh - 9px);
+}
+
+.buttonCopy{
+  top: 90%;
+}
+
+.copiar{
+  /* display: flex; */
+  margin: 2%;
+  width: 90%;
+  height: 40px;
+  border-radius: 15px;
+  background: none;
+  color: #0A3871;
+  font-size: medium;
+  text-align: center;
 }
