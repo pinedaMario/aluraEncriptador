@@ -35,7 +35,7 @@ function evalOutputPlace(){
 }
 
 function validateChars(toValidate){
-  return /^[\x20\x61-\x7A]*$/.test(toValidate);
+  return /^[\x0A\x20\x61-\x7A]*$/.test(toValidate);
 }
 
 function procesarEncriptado(aEncriptar){
