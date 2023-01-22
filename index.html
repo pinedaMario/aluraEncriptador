@@ -28,7 +28,7 @@
         <br>
         <p> <i class="fa fa-exclamation-circle"></i> Solo letras minúsculas y sin acentos </p>
   
-        <button class="encriptar" onclick="noneTest('encriptar')">Encriptar</button><button class="desencriptar" onclick="noneTest('desencriptar')">Desencriptar</button>
+        <button class="encriptar" onclick="encriptar()">Encriptar</button><button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
       </div>
   
     </section>
@@ -42,16 +42,21 @@
       </div>
 
       <div class="filledOutput" id="resultOutput">
-        <p class="resultText">result text before click</p>
+        <p class="resultText" id="resultText">result text before click</p>
 
         <div class="buttonCopy" id="buttonCopy">
-          <button class="copiar" onclick="noneTest('encriptar')">Copiar</button>
+          <button class="copiar" onclick="copyResult()">Copiar</button>
         </div>
       </div>
     </section>
   
   </main>
 
+  <footer>
+    <p>
+      <a class="linkFooter" href="https://github.com/pinedaMario">gitHub @pinedaMario</a>
+    </p>
+  </footer>
 </body>
 
 </html>

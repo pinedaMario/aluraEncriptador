@@ -101,6 +101,7 @@ h2{
 
 .resultText{
   height: calc(74vh - 9px);
+  width: 90%;
 }
 
 .buttonCopy{
@@ -117,4 +118,21 @@ h2{
   color: #0A3871;
   font-size: medium;
   text-align: center;
+}
+
+footer{
+  text-align: right;
+}
+
+.linkFooter{
+  position: flex;
+  text-decoration: none;
+}
+
+.linkFooter:link{
+  color: #0A3871;
+}
+
+.linkFooter:visited{
+  color: #1A487A;
 }
